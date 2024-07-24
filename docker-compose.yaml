@@ -226,3 +226,12 @@ services:
     restart: always
     networks:
       - openim
+
+  im-demo:
+    image: im-demo:ea4099c
+    container_name: im-demo
+    ports:
+      - "11008:11008"
+    restart: always
+    networks:
+      - openim
