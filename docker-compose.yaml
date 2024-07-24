@@ -228,7 +228,7 @@ services:
       - openim
 
   im-demo:
-    image: im-demo:a3c7259
+    image: im-demo:d0468c6
     container_name: im-demo
     ports:
       - "11008:11008"
