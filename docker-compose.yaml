@@ -228,8 +228,10 @@ services:
       - openim
 
   im-demo:
-    image: im-demo:16c4013
+    image: im-demo:a3b998b
     container_name: im-demo
+    environment:
+      - SUPPORT_AUTO_REPLY_MERCHANTS=${SUPPORT_AUTO_REPLY_MERCHANTS}
     ports:
       - "11008:11008"
     restart: always
