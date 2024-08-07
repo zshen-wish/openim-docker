@@ -228,7 +228,7 @@ services:
       - openim
 
   im-demo:
-    image: im-demo:a3b998b
+    image: im-demo:e02fbe2
     container_name: im-demo
     environment:
       - SUPPORT_AUTO_REPLY_MERCHANTS=${SUPPORT_AUTO_REPLY_MERCHANTS}
